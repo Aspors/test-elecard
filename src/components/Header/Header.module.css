@@ -1,0 +1,26 @@
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: var(--header-height);
+    width: 100%;
+    background: var(--header-bg-color);
+    box-shadow: 0 -10px 30px var(--shadow-color);
+    font-size: 1rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.header label{
+    margin-left: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.header input[type=radio]{
+    cursor: pointer;
+}

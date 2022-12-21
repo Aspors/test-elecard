@@ -1,0 +1,20 @@
+
+:root {
+    /* header */
+    --header-height: 4em;
+    --header-bg-color: #262626;
+
+    /* main */
+    --bg-color-main: #0D0D0D;
+
+    /* footer */
+    --footer-bg-color: #262626;
+    --footer-height: 4em;
+
+    /* common */
+    --shadow-color: #A6A6A6;
+
+    /* text */
+    --text-color: #F2F2F2;
+    --font-family: "Roboto Mono", sans-serif;
+}

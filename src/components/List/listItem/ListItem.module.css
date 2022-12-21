@@ -1,0 +1,32 @@
+.list-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: var(--header-bg-color);
+}
+
+.list-item img{
+    width: 300px;
+    height: 200px;
+}
+
+.list-item p {
+    color: var(--text-color);
+}
+
+.list-item span {
+    font-weight: bold;
+}
+
+.list-item .close {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: var(--header-bg-color);
+    color: var(--text-color);
+    font-size: 20px;
+    text-align: center;
+}

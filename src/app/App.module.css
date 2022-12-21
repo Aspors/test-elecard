@@ -1,0 +1,3 @@
+.app{
+    padding: var(--header-height) 0 var(--footer-height) 0;
+}
